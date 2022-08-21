@@ -69,9 +69,12 @@ hr.white {
     color: white;
     font-weight: 600;
     font-size: larger;
-
+    cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-.submit::hover{
-    transform: translateY(10px);
+.submit:hover{
+    transform: translateY(-10px);
+}
+.submit:active{
+    transform: translateY(0px);
 }
