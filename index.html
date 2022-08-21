@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
 </head>
 <body>
-    
+    <main>
+        <form class="Container">
+            <h1 class = "tittle">Contact Form</h1>
+            <span>Please fill In your Information and we'll be sendlng your order In no time.</span>
+            <div class="grid">
+                <span class="textLabel">Your Name</span>
+                <inputArea class="twoInput">
+                    <input style="width: 50%;" type="text" placeholder="First Name" name="First Name" required>
+                    <input style="width: 50%;" type="text" placeholder="Last Name" name="Last Name" required>
+                </inputArea>
+
+                <span class="textLabel">Your Email</span>
+                <input type="text" placeholder="murilorocha537@gmail.com" name="email" required>
+               
+                <span class="textLabel">Phone</span>
+                <input type="tel" placeholder="55+ (84) 99999-9999" name="phone" required>
+            
+                
+                <span class="textLabel">Message Subject</span>
+                <select class="subjects">
+                    <option value="all">Review</option>
+                    <option value="realism">Question</option>
+                    <option value="expressionism">Problem</option>
+                </select>
+
+                <span>Message</span>
+                <textarea class="box" rows="4" cols="50" name="comment" form="usrform"></textarea>
+                
+                <span class="textLabel">Verification</span>
+                <div class="g-recaptcha" data-sitekey="Your site key goes here"></div>
+            </div>
+            <hr class="white">
+            <button class="submit">Submit Form</button>
+            
+        </form>
+    </main>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 </html>
