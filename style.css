@@ -6,7 +6,7 @@
 }
 html,
 body{
-    background: -webkit-gradient(linear, left top, right bottom, from(#0A9DCB), to(#7FC7C8)) fixed;
+    background: #0A9DCB;
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow: hidden; /* Hide scrollbars */
@@ -77,4 +77,49 @@ hr.white {
 }
 .submit:active{
     transform: translateY(0px);
+}
+.graphArea{
+    position: absolute;
+    right: 15px;
+    top: -25px;
+}
+.root{
+    display: inline-block;
+    height: 40px;
+    width: 400px;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+.stadium{
+    display: inline-block;
+    height: 40px;
+    width: 400px;
+    border-radius: 9999px;
+    transform: rotate(-45deg);
+    right: -100px;
+    background-color: #61D7D8;
+    z-index: 1;
+}
+.transparence{
+    background-color: #0A9DCB;
+    
+}
+.yellow{
+    background-color: #D5E781;
+    
+}
+.red{
+    background-color: #ff0000;
+
+}
+
+.blue{
+    background-color: #61D7D8;
+
+}
+.cyan{
+    background-color: #a1e8e9;
+}
+.green{
+    background-color: #00ff37;
 }
