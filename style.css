@@ -94,23 +94,26 @@ hr.white {
     display: inline-block;
     height: 40px;
     width: 400px;
-    border-radius: 9999px;
+    border-radius: 100px;
     transform: rotate(-45deg);
     right: -100px;
     background-color: #61D7D8;
-    z-index: 1;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.stadium:hover{
 }
 .transparence{
     background-color: #0A9DCB;
     
 }
 .yellow{
-    background-color: #D5E781;
+    background-color: #DBD972;
     
 }
 .red{
-    background-color: #ff0000;
-
+    background-color: #EA607E;
+    
 }
 
 .blue{
@@ -121,5 +124,5 @@ hr.white {
     background-color: #a1e8e9;
 }
 .green{
-    background-color: #00ff37;
+    background-color: #D1DC9B;
 }
